@@ -1,10 +1,8 @@
-//The header file is where we code the interface of the Stack, meaning the functions/ operations that can be done onto a stack
-#pragma once
 
 // create a class called stack that include a constructor, sdestructor, fcts and data (public n private)
+#include <iostream>
+#include "Stack.h"
 
-class Stack {
-public:
 	// constructor
 	Stack(unsigned int s) {
 		if (s == 0)
@@ -61,13 +59,3 @@ public:
 		*/
 	}
 
-
-private:
-	
-	int* data;
-	int size;
-	int topofStack;
-
-
-
-};
